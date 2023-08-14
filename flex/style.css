@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .name {
+    flex-grow: 1;
+    flex-basis: 160px;
+  }
+  .email {
+    flex-grow: 3;
+    flex-basis: 200px;
+  }
+
+  button {
+    flex-grow: 1;
+    flex-basis: 80px;
+    transition-duration: 0.5s;
+    
+  }
+
+  body {
+    background-color: grey;
+  }
+
+button:hover {
+    background-color: rgb(98, 187, 25);
+    
+}
+
+.ol, .link {
+   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    justify-content: center;
+}
+
+
+
+
+.row {
+    list-style-type: none;
+    padding: 16px;
+  }
+  .item {
+    height: 50px;
+    border: 2px solid;
+    border-radius: 4px;
+    background: hotpink;
+    margin: 16px;
+  }
